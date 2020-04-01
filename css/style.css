@@ -1,0 +1,114 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+p {
+  color: #40514E;
+}
+#title {
+  background-color: #98d6ea;
+}
+
+.container-fluid {
+  padding: 7% 15% 3%;
+}
+
+/* Navigation bar */
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-link {
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0 12px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.title-image {
+  width: 60%;
+  height: 300px;
+  transform: rotate(10deg);
+  position: relative;
+  left: 15%;
+}
+
+h1 {
+  font-family: 'Montserrat-Black', sans-serif;
+  color: #fff;
+  font-weight: bold;
+  text-align: left;
+}
+
+@media (max-width: 750px) {
+  .title-image {
+    transform: rotate(0);
+    position: static;
+  }
+}
+
+/* Skill Section */
+.skill-row {
+  width: 50%;
+  margin: 6.25rem auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-image {
+  width: 25%;
+  border-radius: 100%;
+  float: right;
+  margin-left: 30px;
+}
+
+h2, h3 {
+  color: #11999E;
+  font-family: 'Montserrat-Black', sans-serif;
+}
+
+.skill-image1 {
+  width: 25%;
+  border-radius: 100%;
+  float: left;
+  margin-right: 30px;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom-style: none;
+  width: 5%;
+  margin: 25px auto 100px;
+}
+
+/*--Messange and Contacts */
+#Contacts {
+  padding-bottom: 60px;
+}
+
+#Contacts p {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+#social-links {
+   background-color:#98d6ea;
+   padding: 50px 0 20px;
+}
+.footer-link {
+  margin: 2% 1%;
+  line-height: 1.2;
+  color: #fff;
+}
+.footer-link:hover {
+   color: #40514E;
+}
